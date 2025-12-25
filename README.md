@@ -19,12 +19,13 @@
 
 В качестве исходных данных использовался файл с правилами сопоставления биллинга AWS:
 
-**Mapping Rules AWS team1.csv**
+**Mapping Rules AWS team7.csv**
 
 Файл содержит следующие ключевые поля:
 - **Product Code** — идентификатор сервиса AWS в биллинге (например: AmazonS3, AmazonMSK, AmazonES);
 - **Usage Type** — строковой шаблон, описывающий конкретный тип потребления или метрику биллинга  
-  (например: `%Requests%Tier1`, `%TimedStorage-ByteHrs`, `%TrainingHour`).
+например: `%TimedStorage-ByteHrs`, `%TimedStorage-GlacierByteHrs`, `%Requests%Tier1`,
+`%DataTransfer%Bytes`, `%TrainingHour`, `%TPS-hours`.
 
 Символ `%` в начале или конце значения означает, что до или после него может находиться произвольная строка.
 
