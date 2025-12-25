@@ -65,7 +65,7 @@
 ### Amazon S3 — Requests
 
 | IT Tower | Service Family | Service Type | Service Sub Type | Service Usage Type | Product Code | Usage Type |
-|--------|---------------|--------------|------------------|--------------------|--------------|------------|
+|---------|----------------|--------------|------------------|--------------------|--------------|------------|
 | Storage | Object Storage | Amazon S3 | Requests | Tier 1 Requests | AmazonS3 | %Requests%Tier1 |
 | Storage | Object Storage | Amazon S3 | Requests | Tier 2 Requests | AmazonS3 | %Requests%Tier2 |
 | Storage | Object Storage | Amazon S3 | Requests | Tier 3 Requests | AmazonS3 | %Requests%Tier3 |
@@ -75,7 +75,7 @@
 ### Amazon Personalize
 
 | IT Tower | Service Family | Service Type | Service Sub Type | Service Usage Type | Product Code | Usage Type |
-|--------|---------------|--------------|------------------|--------------------|--------------|------------|
+|---------|----------------|--------------|------------------|--------------------|--------------|------------|
 | AI / ML | Machine Learning | Amazon Personalize | Inference | TPS-hours | AmazonPersonalize | %TPS-hours |
 | AI / ML | Machine Learning | Amazon Personalize | Training | Training Hours | AmazonPersonalize | %TrainingHour |
 | AI / ML | Machine Learning | Amazon Personalize | Data Ingestion | Data Volume | AmazonPersonalize | %DataIngestion |
@@ -85,7 +85,7 @@
 ### Amazon OpenSearch (AmazonES)
 
 | IT Tower | Service Family | Service Type | Service Sub Type | Service Usage Type | Product Code | Usage Type |
-|--------|---------------|--------------|------------------|--------------------|--------------|------------|
+|---------|----------------|--------------|------------------|--------------------|--------------|------------|
 | Analytics | Search | Amazon OpenSearch | Instances | Compute | AmazonES | %ES:Instance% |
 | Analytics | Search | Amazon OpenSearch | Block Storage | EBS GP2 | AmazonES | %ES:GP2-Storage% |
 | Analytics | Search | Amazon OpenSearch | Data Transfer | Bytes | AmazonES | %DataTransfer%Bytes |
