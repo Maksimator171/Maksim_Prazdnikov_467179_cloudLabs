@@ -1,0 +1,11 @@
+FROM python:latest
+
+WORKDIR /laba2_app
+
+COPY . .
+
+RUN pip install flask
+
+EXPOSE 5000
+
+CMD ["python", "app.py"]
